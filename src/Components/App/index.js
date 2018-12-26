@@ -9,12 +9,23 @@ import Footer from '../Footer';
 
 
 class App extends Component {
+  constructor() {
+    super();
+    this.galleryRef = React.createRef();
+  }
+  goToGallery = () => {
+    window.scrollTo({
+      top: this.galleryRef.current.offsetTop,
+      behavior: "smooth"
+    });
+  }
+
   render() {
     return (
       <div>
-        <Header />
+        <Header goToGallery={this.goToGallery} />
         <Home />
-        <Gallery />
+        <Gallery refProp={this.galleryRef} />
         <InvitationCard />
         <Venue />
         <Footer />

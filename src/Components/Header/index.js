@@ -13,7 +13,7 @@ export default class Header extends Component {
                     </div>
                     <div className='Header-Tabs'>
                         <div className='Header-Buttons' onClick={() => { }}>Home</div>
-                        <div className='Header-Buttons' onClick={() => { }}>Gallery</div>
+                        <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
                         <div className='Header-Buttons' onClick={() => { }}>Invitation Card</div>
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>

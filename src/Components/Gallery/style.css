@@ -17,5 +17,5 @@ padding: 35px 0;
 /* margin: auto;  iske jagah upar wale div ko justify-content de diya */
 }
 .image-holder:hover{
-    opacity: 0.8;
+   filter: brightness(50%);
 }
