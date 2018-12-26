@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import styles from './style.css';
+import './style.css';
+import HomeImage from '../../Assets/Images/ye.png'
+// import { Parallax, Background } from 'react-parallax';
 
 export default class Home extends Component {
-  render() {
-      return(
-          <div>
-              Paridhi
-          </div>
-      );
-  }
+    render() {
+        return (
+            <div className='Home-container'>
+                <div className='Home-Image-div'>
+                    <img className='Home-Image' src={HomeImage} alt="wedding-logo"></img>
+                </div>
+            </div>
+        );
+    }
 }
