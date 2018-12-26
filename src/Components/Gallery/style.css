@@ -1,0 +1,21 @@
+.Gallery-container{
+}
+
+.image-container{
+display: flex;
+flex-wrap: wrap; /* iss line k karan ek line me 3 piks aare hai */
+margin-top: 200px;
+justify-content: space-around;
+/* overflow: hidden;  isse jo scroll hota hai vo nahi hoga */  
+}
+
+.image-holder{
+width:500px;
+height: 500px;
+padding: 35px 0; 
+/* border-radius: 45px; */
+/* margin: auto;  iske jagah upar wale div ko justify-content de diya */
+}
+.image-holder:hover{
+    opacity: 0.8;
+}

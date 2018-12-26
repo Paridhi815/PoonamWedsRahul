@@ -21,8 +21,7 @@ position: absolute;
 .Header-Buttons{
     padding: 20px 40px;
     font-size: 20px;
-    background: cyan;
-    background-color: transparent;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 960px) and (min-width: 600px) {
