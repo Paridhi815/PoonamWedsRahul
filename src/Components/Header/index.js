@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
-import logo from '../../Assets/Images/PR.png'
+import logo from '../../Assets/Images/PR.png';
+import Hamburger from '../Hamburger';
 
 let isComponentMounted = false
 export default class Header extends Component {
@@ -73,7 +74,11 @@ export default class Header extends Component {
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>
                     <div className='Header-navigation-phone'>
-                        <span className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}><i className="fas fa-bars"></i></span>
+                        <span className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}>
+                        <Hamburger isNavBar={!this.state.isDropDownVisible} />
+                        {/* <i className="fas fa-bars"></i> */}
+                        
+                        </span>
                         {this.showDropdown()}
                     </div>
                 </div>
