@@ -16,6 +16,7 @@ padding: 35px 0;
 /* border-radius: 45px; */
 /* margin: auto;  iske jagah upar wale div ko justify-content de diya */
 }
+
 .image-holder:hover{
    filter: brightness(50%);
 }

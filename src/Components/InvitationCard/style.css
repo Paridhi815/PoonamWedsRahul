@@ -1,0 +1,17 @@
+
+.Invitation-Container{
+display: flex;
+justify-content:space-around;
+/* background-color: rgb(247,252,255); */
+background-color: rgb(245,233,232);
+}
+
+.InvitationCard-Container{
+    /* margin: auto; */
+    text-align: center;
+}
+
+.InvitationCard-Image{
+    height: 95vh;
+    /* border-radius: 5%; */
+}

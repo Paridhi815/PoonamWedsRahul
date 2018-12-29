@@ -12,10 +12,12 @@ class App extends Component {
   constructor() {
     super();
     this.galleryRef = React.createRef();
+    this.invitationCardRef = React.createRef();
   }
-  goToGallery = () => {
+
+  goToSection = (ref) => () => {
     window.scrollTo({
-      top: this.galleryRef.current.offsetTop,
+      top: ref.current.offsetTop,
       behavior: "smooth"
     });
   }
@@ -23,10 +25,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header goToGallery={this.goToGallery} />
+        <Header goToGallery={this.goToSection(this.galleryRef)} goToInvitationCard={this.goToSection(this.invitationCardRef)} />
         <Home />
         <Gallery refProp={this.galleryRef} />
-        <InvitationCard />
+        <InvitationCard refProp={this.invitationCardRef}/>
         <Venue />
         <Footer />
       </div>

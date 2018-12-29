@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.css';
-
 import logo from '../../Assets/Images/PR.png'
 
 export default class Header extends Component {
@@ -14,7 +13,7 @@ export default class Header extends Component {
                     <div className='Header-Tabs'>
                         <div className='Header-Buttons' onClick={() => { }}>Home</div>
                         <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
-                        <div className='Header-Buttons' onClick={() => { }}>Invitation Card</div>
+                        <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>
                 </div>
