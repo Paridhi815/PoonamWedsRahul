@@ -55,7 +55,7 @@ export default class Header extends Component {
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>
                     <div className='Header-navigation-phone'>
-                        <span className='Header-navigation-icon'  ref={node => this.node = node}onClick={this.toggleDropdownForPhone}><i class="fas fa-bars"></i></span>
+                        <span className='Header-navigation-icon'  ref={node => this.node = node}onClick={this.toggleDropdownForPhone}><i className="fas fa-bars"></i></span>
                         <div className={this.state.isDropDownVisible ? 'Header-Tabs-phone' : 'Header-Tabs-phone-disappear'}>
                             <div className='Header-Buttons' onClick={() => { }}>Home</div>
                             <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>

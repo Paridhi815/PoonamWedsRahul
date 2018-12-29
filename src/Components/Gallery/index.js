@@ -10,7 +10,9 @@ export default class Gallery extends Component {
                 <div className="image-container">
                     {
                         imageList.map(imageName => <img className="image-holder" src = {require(`../../Assets/Images/${imageName}`)}
-                            alt="Pre-Wedding Pictures" ></img>)
+                            alt="Pre-Wedding Pictures" 
+                            key={imageName}
+                            ></img>)
                     }
                 </div>
             </div>
