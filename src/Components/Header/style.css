@@ -1,6 +1,7 @@
 .Header-main-Container{
 position: absolute;
 width: 100%;
+overflow: hidden;
 }
 
 .Header-Container{
@@ -30,14 +31,9 @@ width: 100%;
 }
 
 .Header-navigation-icon{
-display: flex;
-justify-content: flex-end;
-}
-
-.Header-Tabs-phone{
-    background-color: black;
-    opacity: 0.7;
-    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 960px) and (min-width: 600px) {
@@ -65,7 +61,28 @@ justify-content: flex-end;
     .Header-navigation-phone{
         display: block;
     }
-    .Header-Tabs-phone-disappear{
-        display: none;
+    @keyframes enter {
+        from {right: -300px;}
+        to {right: -20px;}
+    }
+    @keyframes exit {
+        from {right: -20px;}
+        to {right: -300px;}
+    }
+    .Header-Tabs-phone{
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+        position: relative;
+        right: -20px;
+        animation: enter 1s 1;
+    }
+    .Header-Tabs-phone-exit{
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+        position: relative;
+        right: -300px;
+        animation: exit 1s 1;
     }
   }

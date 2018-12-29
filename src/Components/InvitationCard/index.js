@@ -7,7 +7,7 @@ export default class InvitationCard extends Component {
     render() {
         return (
             <div ref={this.props.refProp} className="Invitation-Container">
-                <div className="InvitationInfo-Container">
+                {/* <div className="InvitationInfo-Container">
                     <div>Our Big Day </div>
                     <div>- Join us at the wedding of </div>
                     <div>Poonam and Rahul</div>
@@ -17,7 +17,7 @@ export default class InvitationCard extends Component {
                     <div>See You at the mandap
                         <span role="img" aria-label="emoji">😊</span>
                     </div>
-                </div>
+                </div> */}
                 <div className="InvitationCard-Container">
                     <img className='InvitationCard-Image' src={InvitationImage} alt="invitation-card"></img>
                 </div>

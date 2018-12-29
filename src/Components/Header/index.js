@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import logo from '../../Assets/Images/PR.png'
 
+let isComponentMounted = false
 export default class Header extends Component {
 
     constructor() {
@@ -13,6 +14,7 @@ export default class Header extends Component {
 
     //If you click anywhere besides nav icon, the dropdown should disappear
     componentWillMount() {
+        isComponentMounted = true;
         document.addEventListener('click', this.handleClick, false)
     }
 
@@ -41,6 +43,22 @@ export default class Header extends Component {
         }*/);
     }
 
+    showDropdown = () => {
+        if(isComponentMounted === true){
+            isComponentMounted = false;
+            return null;
+        }
+
+        return (
+            <div className={this.state.isDropDownVisible ? 'Header-Tabs-phone' : 'Header-Tabs-phone-exit'}>
+                <div className='Header-Buttons' onClick={() => { }}>Home</div>
+                <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
+                <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
+                <div className='Header-Buttons' onClick={() => { }}>Venue</div>
+            </div>
+        )
+    }
+
     render() {
         return (
             <div className='Header-main-Container'>
@@ -55,13 +73,8 @@ export default class Header extends Component {
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>
                     <div className='Header-navigation-phone'>
-                        <span className='Header-navigation-icon'  ref={node => this.node = node}onClick={this.toggleDropdownForPhone}><i className="fas fa-bars"></i></span>
-                        <div className={this.state.isDropDownVisible ? 'Header-Tabs-phone' : 'Header-Tabs-phone-disappear'}>
-                            <div className='Header-Buttons' onClick={() => { }}>Home</div>
-                            <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
-                            <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
-                            <div className='Header-Buttons' onClick={() => { }}>Venue</div>
-                        </div>
+                        <span className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}><i className="fas fa-bars"></i></span>
+                        {this.showDropdown()}
                     </div>
                 </div>
             </div>
