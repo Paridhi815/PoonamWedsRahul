@@ -11,6 +11,7 @@ import Footer from '../Footer';
 class App extends Component {
   constructor() {
     super();
+    this.homeRef = React.createRef();
     this.galleryRef = React.createRef();
     this.invitationCardRef = React.createRef();
   }
@@ -25,8 +26,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header goToGallery={this.goToSection(this.galleryRef)} goToInvitationCard={this.goToSection(this.invitationCardRef)} />
-        <Home />
+        <Header goToHome={this.goToSection(this.homeRef)} goToGallery={this.goToSection(this.galleryRef)} goToInvitationCard={this.goToSection(this.invitationCardRef)} />
+        <Home refProp={this.homeRef} />
         <Gallery refProp={this.galleryRef} />
         <InvitationCard refProp={this.invitationCardRef}/>
         <Venue />

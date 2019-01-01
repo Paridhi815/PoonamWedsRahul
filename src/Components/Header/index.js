@@ -52,7 +52,7 @@ export default class Header extends Component {
 
         return (
             <div className={this.state.isDropDownVisible ? 'Header-Tabs-phone' : 'Header-Tabs-phone-exit'}>
-                <div className='Header-Buttons' onClick={() => { }}>Home</div>
+                <div className='Header-Buttons' onClick={this.props.goToHome}>Home</div>
                 <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
                 <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
                 <div className='Header-Buttons' onClick={() => { }}>Venue</div>
@@ -68,17 +68,17 @@ export default class Header extends Component {
                         <img className='Header-logo' src={logo} alt="wedding-logo"></img>
                     </div>
                     <div className='Header-Tabs'>
-                        <div className='Header-Buttons' onClick={() => { }}>Home</div>
+                        <div className='Header-Buttons' onClick={this.props.goToHome}>Home</div>
                         <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
                         <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
                         <div className='Header-Buttons' onClick={() => { }}>Venue</div>
                     </div>
                     <div className='Header-navigation-phone'>
-                        <span className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}>
+                        <div className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}>
                         <Hamburger isNavBar={!this.state.isDropDownVisible} />
                         {/* <i className="fas fa-bars"></i> */}
                         
-                        </span>
+                        </div>
                         {this.showDropdown()}
                     </div>
                 </div>

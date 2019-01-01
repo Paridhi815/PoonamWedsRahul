@@ -6,7 +6,7 @@ import HomeImage from '../../Assets/Images/ye.png'
 export default class Home extends Component {
     render() {
         return (
-            <div className='Home-container'>
+            <div ref={this.props.refProp} className='Home-container'>
                 <div className='Home-Image-div'>
                     <img className='Home-Image' src={HomeImage} alt="wedding-logo"></img>
                 </div>

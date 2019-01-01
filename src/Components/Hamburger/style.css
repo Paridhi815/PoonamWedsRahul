@@ -85,6 +85,7 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    height: 15px;
   }
   
   #nav-icon4 span {

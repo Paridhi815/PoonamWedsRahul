@@ -1,17 +1,32 @@
 
 .Invitation-Container{
-display: flex;
-justify-content:space-around;
-/* background-color: rgb(247,252,255); */
-background-color: rgb(245,233,232);
+    display: flex;
+    justify-content:space-around;
+    background-image: url('../../Assets/Images/invi-bg.jpg');
+    width: 100vw;
+    background-size: contain;
 }
 
 .InvitationCard-Container{
-    /* margin: auto; */
     text-align: center;
 }
 
 .InvitationCard-Image{
     height: 95vh;
-    /* border-radius: 5%; */
+    width: 33vw;
+}
+
+
+@media only screen and (max-width: 960px) and (min-width: 600px) {
+    .InvitationCard-Image{
+        height: 85vh;
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .InvitationCard-Image{
+        height: 95vh;
+        width: 95vw;
+    }
 }
