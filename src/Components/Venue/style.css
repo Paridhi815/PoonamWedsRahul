@@ -1,0 +1,81 @@
+.Venue-Container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(245,233,232); */
+    display: block;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+}
+
+.Venue-Container::after {
+    background: url('../../Assets/Images/see.jpg');
+    background-size: auto 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    /* filter: brightness(120%); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+}
+
+.Venue-Title{
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    margin: 0px 50px;
+}
+
+.Venue-Title-Heading{
+    font-size: 50px;
+}
+
+.Venue-Title-Text{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.Venue-Details-Container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8vh 20vw;
+}
+
+.Venue-Details{
+    text-align: center;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    padding: 50px;
+    background: rgba(255,255,255,0.15)
+}
+
+.Ceremony-Name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Ceremony-hr{
+    margin: 10px 0;
+}
+
+.Ceremony-Date{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.Ceremony-Place{
+    margin-top: 20px;
+}
+
+.Venue-footer{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
