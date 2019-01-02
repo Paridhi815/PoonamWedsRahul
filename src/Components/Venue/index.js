@@ -17,6 +17,10 @@ export default class Venue
                     {weddingDetails.ceremonyPlace}
                     <div>{weddingDetails.ceremonyCity}</div>
                 </div>
+                <hr className='Ceremony-hr' />
+{/* 
+                <iframe width="600" height="450" frameborder="0" style={{border:0}}
+                    src="https://www.google.com/maps/embed/v1/place?q=pheonix+marketciyt&key=..." allowfullscreen></iframe> */}
             </div>
         );
     }
@@ -35,9 +39,9 @@ export default class Venue
             ceremonyCity: "Jamshedpur."
         };
         return (
-            <div className='Venue-Container'>
+            <div ref={this.props.refProp} className='Venue-Container'>
                 <div className='Venue-Title'>
-                    <div className='Venue-Title-Heading'>Our Big Day.</div>
+                    <div className='Venue-Title-Heading'>Our Big Day</div>
                     <div className='Venue-Title-Text'>We invite you to the joyful occasion when Poonam and Rahul become one.</div>
                 </div>
                 <div className='Venue-Details-Container'>
