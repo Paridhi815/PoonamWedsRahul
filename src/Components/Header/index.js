@@ -55,7 +55,7 @@ export default class Header extends Component {
                 <div className='Header-Buttons' onClick={this.props.goToHome}>Home</div>
                 <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
                 <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
-                <div className='Header-Buttons' onClick={() => { }}>Venue</div>
+                <div className='Header-Buttons' onClick={this.props.goToVenue}>Venue</div>
             </div>
         )
     }
@@ -71,7 +71,7 @@ export default class Header extends Component {
                         <div className='Header-Buttons' onClick={this.props.goToHome}>Home</div>
                         <div className='Header-Buttons' onClick={this.props.goToGallery}>Gallery</div>
                         <div className='Header-Buttons' onClick={this.props.goToInvitationCard}>Invitation Card</div>
-                        <div className='Header-Buttons' onClick={() => { }}>Venue</div>
+                        <div className='Header-Buttons' onClick={this.props.goToVenue}>Venue</div>
                     </div>
                     <div className='Header-navigation-phone'>
                         <div className='Header-navigation-icon' ref={node => this.node = node} onClick={this.toggleDropdownForPhone}>
