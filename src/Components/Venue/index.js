@@ -19,7 +19,7 @@ export default class Venue extends Component {
                 <hr className='Ceremony-hr' />
                 <div class="mapouter">
                     <div class="gmap_canvas">
-                        <iframe className="maps-frame" id="gmap_canvas" src={weddingDetails.gmap} frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe title={weddingDetails.ceremonyCity} className="maps-frame" id="gmap_canvas" src={weddingDetails.gmap} frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         <a href="https://www.crocothemes.net">editing sidebar wordpress themes</a>
                     </div>
                 </div>
