@@ -1,5 +1,5 @@
 .memories-image-container{
-    margin:0 150px;
+    margin:0 50px;
 }
 
 
@@ -28,35 +28,48 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.memories-image{
-    display: flex;
-    justify-content: space-around
-}
-
 .memories-image:nth-child(odd){
-    flex-direction: row
+    flex-direction: row;
 }
-
-.memories-image:nth-child(even){
-    flex-direction: row-reverse
+.memories-image:nth-child(odd) img{
+    transform: rotate(-8deg);
 }
-
-/* .memories-image:nth-child(odd){
-    margin-top: -120px;
-    text-align: left;
+.memories-image:nth-child(odd) span{
+    transform: rotate(8deg);
+}
+.memories-image:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.memories-image:nth-child(even) img{
+    transform: rotate(8deg);
+}
+.memories-image:nth-child(even) span{
     transform: rotate(-8deg);
 }
 
-.memories-image:nth-child(even){
-    margin-top: -120px;
-    text-align: right;
+.memories-image{
+    display: flex;
+    margin: 0 100px;
+}
+.memories-image-two{
+    display: flex;
+    justify-content: space-between;
+}
+.funny-image-holder-1{
+    transform: rotate(-8deg);
+}
+.funny-image-holder-2{
     transform: rotate(8deg);
-} */
-
+}
 
 .image-description{
-    background: white;
-    margin: auto;
     font-family: 'Montez', cursive;
     font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-description>span{
+    background: white;
+    padding: 10px 30px;
 }

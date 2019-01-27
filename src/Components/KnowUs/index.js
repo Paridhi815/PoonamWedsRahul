@@ -27,21 +27,21 @@ export default class KnowUs extends Component {
 
     twoPiks = (imageName1, imageName2, imageDescription) => {
         return (
-            <div className="memories-image">
+            <div className="memories-image-two">
                 <div>
-                    <img className="funny-image-holder" src={require(`../../Assets/Images/Funny/Small/${imageName1}`)}
+                    <img className="funny-image-holder funny-image-holder-1" src={require(`../../Assets/Images/Funny/Small/${imageName1}`)}
                         alt="Pre-Wedding Pictures"
                         key={imageName1}
                         onClick={() => this.openModal(imageName1)}
                     ></img>
                 </div>
-                <div>
-                    <span className="image-description">
+                <div className="image-description">
+                    <span>
                         {imageDescription}
                     </span>
                 </div>
                 <div>
-                    <img className="funny-image-holder" src={require(`../../Assets/Images/Funny/Small/${imageName2}`)}
+                    <img className="funny-image-holder funny-image-holder-2" src={require(`../../Assets/Images/Funny/Small/${imageName2}`)}
                         alt="Pre-Wedding Pictures"
                         key={imageName2}
                         onClick={() => this.openModal(imageName2)}
@@ -60,8 +60,8 @@ export default class KnowUs extends Component {
                     onClick={() => this.openModal(imageName)}
                 ></img>
             </div>
-            <div>
-                <span className="image-description">
+            <div className="image-description">
+                <span>
                     {imageDescription}
                 </span>
             </div>
