@@ -1,7 +1,15 @@
-.Home-container{
-    background-color: #cccccc;
-}
-
 .Home-Image{
     width: 100%;
+}
+.know-us-button{
+    text-align: center;
+}
+.heart-button{
+    width: 200px;
+    transition: 500ms;
+    /* box-shadow: 0 8px 6px -6px rgba(0,0,0,0.6); */
+}
+.heart-button:hover{
+    width: 250px;
+    transition: 500ms;
 }

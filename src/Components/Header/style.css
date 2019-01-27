@@ -2,13 +2,14 @@
     position: absolute;
     width: 100%;
     overflow: hidden;
+    font-family: 'Dancing Script', cursive;
 }
 
 .Header-Container{
     display: flex;
     justify-content: space-between;
     margin:0 200px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .Header-Tabs{
@@ -51,7 +52,7 @@
 
     .Header-Container{
         margin:0 10px;
-        font-size: 14px;
+        font-size: 20px;
     }
     .Header-Buttons{
         padding: 10px 20px;

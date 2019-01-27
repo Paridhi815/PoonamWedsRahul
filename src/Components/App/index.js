@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div>
         <Header goToHome={this.goToSection(this.homeRef)} goToGallery={this.goToSection(this.galleryRef)} goToInvitationCard={this.goToSection(this.invitationCardRef)} goToVenue={this.goToSection(this.venueRef)} />
-        <Home refProp={this.homeRef} />
+        <Home history={this.props.history} refProp={this.homeRef} />
         <Gallery refProp={this.galleryRef} />
         <InvitationCard refProp={this.invitationCardRef} />
         <Venue refProp={this.venueRef} />

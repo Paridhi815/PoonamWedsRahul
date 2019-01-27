@@ -1,0 +1,62 @@
+.memories-image-container{
+    margin:0 150px;
+}
+
+
+.Memories-Container{
+    padding: 80px 10px;
+    background:rgb(242,242,244); 
+}
+
+.back-button{
+    position: fixed;
+    top:20px;
+    right:20px;
+    font-size: 30px;
+    background:white;
+    padding: 5px 12px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+
+.funny-image-holder{
+    width:500px;
+    height: 500px;
+    margin-top: 35px; 
+    border: 15px solid white;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.memories-image{
+    display: flex;
+    justify-content: space-around
+}
+
+.memories-image:nth-child(odd){
+    flex-direction: row
+}
+
+.memories-image:nth-child(even){
+    flex-direction: row-reverse
+}
+
+/* .memories-image:nth-child(odd){
+    margin-top: -120px;
+    text-align: left;
+    transform: rotate(-8deg);
+}
+
+.memories-image:nth-child(even){
+    margin-top: -120px;
+    text-align: right;
+    transform: rotate(8deg);
+} */
+
+
+.image-description{
+    background: white;
+    margin: auto;
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+}

@@ -31,14 +31,18 @@
 }
 
 .Venue-Title-Heading{
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
 }
 .Become-one{
     font-size: 30px;
 }
 .Venue-Title-Text{
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 500;
     margin-top: 20px;
+    font-family: 'Tangerine', cursive;
 }
 
 .Venue-Details-Container{
@@ -79,7 +83,9 @@
 .Venue-footer{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 500;
 }
 
 

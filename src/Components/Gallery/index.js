@@ -11,13 +11,6 @@ export default class Gallery extends Component {
             currentImage: null
         };
     }
-    getCloseButton = () => (
-        <div id="nav-icon4" className={this.props.isNavBar ? '' : 'open'}>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    )
     openModal = (imageName) => {
         this.setState({
             isOpen: true,
