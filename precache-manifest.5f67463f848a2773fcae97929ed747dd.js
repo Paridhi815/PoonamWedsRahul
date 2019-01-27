@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/30.a232d9ac.jpg"
   },
   {
-    "revision": "b0251f4bd423d475fcf2",
+    "revision": "29dbd69187199d115c9a",
     "url": "/PoonamWedsRahul/static/css/main.dea4e20e.chunk.css"
   },
   {
-    "revision": "352efb64da7e3620068e",
-    "url": "/PoonamWedsRahul/static/js/1.352efb64.chunk.js"
+    "revision": "d1a0e0b8b8254c84f1c3",
+    "url": "/PoonamWedsRahul/static/js/1.d1a0e0b8.chunk.js"
   },
   {
     "revision": "b77e779d935f8a89e141",
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/29.7b4ac431.jpg"
   },
   {
-    "revision": "b0251f4bd423d475fcf2",
-    "url": "/PoonamWedsRahul/static/js/main.b0251f4b.chunk.js"
+    "revision": "29dbd69187199d115c9a",
+    "url": "/PoonamWedsRahul/static/js/main.29dbd691.chunk.js"
   },
   {
     "revision": "b81813c1ad058de0b8ceea86e3a74d94",
@@ -296,7 +296,7 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/43.a706722e.jpg"
   },
   {
-    "revision": "500359b47cf4fcdfa4dc789c987538cb",
+    "revision": "ff08189c0b858b1126e0ea119252e9d1",
     "url": "/PoonamWedsRahul/index.html"
   }
 ];
