@@ -17,6 +17,7 @@
     padding: 5px 12px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
+    z-index: 10;
 }
 
 .funny-image-holder{
@@ -63,13 +64,27 @@
 }
 
 .image-description{
-    font-family: 'Montez', cursive;
-    font-size: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .image-description>span{
     background: white;
     padding: 10px 30px;
+    text-align: center;
+}
+
+.image-heading{
+    font-size: 60px;
+    font-family: 'Montez', cursive;
+}
+
+.image-write{
+    font-size: 40px;
+    font-family: 'Rochester', cursive;
+}
+
+.image-hr{
+    background-color: red;
 }
