@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PoonamWedsRahul/precache-manifest.b845ce8608ec036ccf85c2af7300da5a.js"
+  "/PoonamWedsRahul/precache-manifest.d8a3ac6e5a0c16c993f377194caa8e24.js"
 );
 
 workbox.clientsClaim();

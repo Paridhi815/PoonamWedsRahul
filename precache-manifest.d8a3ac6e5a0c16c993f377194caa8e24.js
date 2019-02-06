@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/30.a232d9ac.jpg"
   },
   {
-    "revision": "70084030bb2a68333b58",
-    "url": "/PoonamWedsRahul/static/css/main.3c82ae78.chunk.css"
+    "revision": "d83004e02a7e67c23b36",
+    "url": "/PoonamWedsRahul/static/css/main.f66102ea.chunk.css"
   },
   {
-    "revision": "d1a0e0b8b8254c84f1c3",
-    "url": "/PoonamWedsRahul/static/js/1.d1a0e0b8.chunk.js"
+    "revision": "352efb64da7e3620068e",
+    "url": "/PoonamWedsRahul/static/js/1.352efb64.chunk.js"
   },
   {
     "revision": "b77e779d935f8a89e141",
@@ -26,14 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "e1261e5f8345b8c735ff4534d019bd0e",
     "url": "/PoonamWedsRahul/static/media/invite.e1261e5f.jpeg"
-  },
-  {
-    "revision": "d284f832c8948a0d8e2041c19ce82565",
-    "url": "/PoonamWedsRahul/static/media/invi-bg.d284f832.jpg"
-  },
-  {
-    "revision": "042b6015304e98cfe6220ceb0808b293",
-    "url": "/PoonamWedsRahul/static/media/see-phone.042b6015.jpg"
   },
   {
     "revision": "d86e313ed2036401e447ee2751692cca",
@@ -108,6 +100,14 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/9.5f469e73.jpg"
   },
   {
+    "revision": "d284f832c8948a0d8e2041c19ce82565",
+    "url": "/PoonamWedsRahul/static/media/invi-bg.d284f832.jpg"
+  },
+  {
+    "revision": "042b6015304e98cfe6220ceb0808b293",
+    "url": "/PoonamWedsRahul/static/media/see-phone.042b6015.jpg"
+  },
+  {
     "revision": "41884dd7f47acdfa81ba91e02565667f",
     "url": "/PoonamWedsRahul/static/media/see.41884dd7.jpg"
   },
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/29.7b4ac431.jpg"
   },
   {
-    "revision": "70084030bb2a68333b58",
-    "url": "/PoonamWedsRahul/static/js/main.70084030.chunk.js"
+    "revision": "d83004e02a7e67c23b36",
+    "url": "/PoonamWedsRahul/static/js/main.d83004e0.chunk.js"
   },
   {
     "revision": "b81813c1ad058de0b8ceea86e3a74d94",
@@ -296,7 +296,7 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/43.a706722e.jpg"
   },
   {
-    "revision": "e13bc231ac521724c033eeb865538c16",
+    "revision": "6581fc2bb16d0a3af8c87ba539741fdb",
     "url": "/PoonamWedsRahul/index.html"
   }
 ];
