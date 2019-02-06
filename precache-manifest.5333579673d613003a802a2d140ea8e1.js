@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/30.a232d9ac.jpg"
   },
   {
-    "revision": "446f111c1e4c3ea8700b",
-    "url": "/PoonamWedsRahul/static/css/main.f66102ea.chunk.css"
+    "revision": "14465e4272eedbf32edf",
+    "url": "/PoonamWedsRahul/static/css/main.3797ba2b.chunk.css"
   },
   {
     "revision": "d1a0e0b8b8254c84f1c3",
@@ -26,6 +26,14 @@ self.__precacheManifest = [
   {
     "revision": "e1261e5f8345b8c735ff4534d019bd0e",
     "url": "/PoonamWedsRahul/static/media/invite.e1261e5f.jpeg"
+  },
+  {
+    "revision": "d284f832c8948a0d8e2041c19ce82565",
+    "url": "/PoonamWedsRahul/static/media/invi-bg.d284f832.jpg"
+  },
+  {
+    "revision": "042b6015304e98cfe6220ceb0808b293",
+    "url": "/PoonamWedsRahul/static/media/see-phone.042b6015.jpg"
   },
   {
     "revision": "d86e313ed2036401e447ee2751692cca",
@@ -100,14 +108,6 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/9.5f469e73.jpg"
   },
   {
-    "revision": "d284f832c8948a0d8e2041c19ce82565",
-    "url": "/PoonamWedsRahul/static/media/invi-bg.d284f832.jpg"
-  },
-  {
-    "revision": "042b6015304e98cfe6220ceb0808b293",
-    "url": "/PoonamWedsRahul/static/media/see-phone.042b6015.jpg"
-  },
-  {
     "revision": "41884dd7f47acdfa81ba91e02565667f",
     "url": "/PoonamWedsRahul/static/media/see.41884dd7.jpg"
   },
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/29.7b4ac431.jpg"
   },
   {
-    "revision": "446f111c1e4c3ea8700b",
-    "url": "/PoonamWedsRahul/static/js/main.446f111c.chunk.js"
+    "revision": "14465e4272eedbf32edf",
+    "url": "/PoonamWedsRahul/static/js/main.14465e42.chunk.js"
   },
   {
     "revision": "b81813c1ad058de0b8ceea86e3a74d94",
@@ -296,7 +296,7 @@ self.__precacheManifest = [
     "url": "/PoonamWedsRahul/static/media/43.a706722e.jpg"
   },
   {
-    "revision": "fb2d4abee11a3c3285877880f985f7c3",
+    "revision": "96d554ae893660e7aca5a420fc5a6c58",
     "url": "/PoonamWedsRahul/index.html"
   }
 ];
