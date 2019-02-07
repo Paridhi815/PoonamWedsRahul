@@ -91,7 +91,7 @@ export default class KnowUs extends Component {
                     {this.onePik('33.jpg', "The very beginning", "Friends from day 1 of college, discussing our crush with each other and being together in the thick and thin of life, we are best friends for life!")}
                     {this.onePik('34.jpg', "Hell of a ride", "Fights, clashes and arguments made our relationship stronger and ever lasting!")}
                     {this.twoPiks('29.jpg', '41.jpg', "Kids Forever!!", "When we are together, we can bring the kids within us as well show the highest level of maturity too 😁")}
-                    {this.onePik('37.jpg', "Foodies Forever", "The visit to mutt, the trecks, the munching in MG Road and the long talks at the back gate will never be forgotten.")}
+                    {this.onePik('37.jpg', "Foodies", "The visit to mutt, the trecks, the munching in MG Road and the long talks at the back gate will never be forgotten.")}
                     {this.onePik('38.jpg', "Making memories together", "The last photoshoot of SIT where he looked no less than a hero and she looked cute as always 😉")}
                     {this.twoPiks('26.jpg', '35.jpg', "Hum Tum", "When he repeated the kurta year after year 😝 and she toiled hard enough to always have a different look.")}
                     {this.onePik('32.jpg', "Motu Patlu", "Always ready for a pose and hence we have a million pics and a trillion memories together ❤️")}
